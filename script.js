@@ -40,43 +40,43 @@ form.addEventListener('submit', function (e) {
 
         // Updating the Images according to the weather
         if (weatherMain == 'Clear') {
-            image.src = `./Images/sunny.png`
+            image.src = `./images/sunny.png`
             myWeatherContainer.style.backgroundColor = '#ec6e4c'
         }
         if (weatherMain == 'Clouds') {
-            image.src = `./Images/clouds.png`
+            image.src = `./images/clouds.png`
             myWeatherContainer.style.backgroundColor = '#86d3d3'
         }
         if (weatherMain == 'Rain') {
-            image.src = `./Images/Rain.png`
+            image.src = `./images/Rain.png`
             myWeatherContainer.style.backgroundColor = '#494bcf'
         }
         if (weatherMain == 'Drizzle') {
-            image.src = `./Images/Drizzle.png`
+            image.src = `./images/Drizzle.png`
             myWeatherContainer.style.backgroundColor = '#8ecfcf'
         }
         if (weatherMain == 'Haze') {
-            image.src = `./Images/Drizzle.png`
+            image.src = `./images/Drizzle.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
         if (weatherMain == 'Dust') {
-            image.src = `./Images/wind.png`
+            image.src = `./images/wind.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
         if (weatherMain == 'Wind') {
-            image.src = `./Images/wind.png`
+            image.src = `./images/wind.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
         if (weatherMain == 'Snow') {
-            image.src = `./Images/snow.png`
+            image.src = `./images/snow.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
         if (weatherMain == 'Hail') {
-            image.src = `./Images/hail.png`
+            image.src = `./images/hail.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
         if (weatherMain == 'Foggy') {
-            image.src = `./Images/Foggy.png`
+            image.src = `./images/Foggy.png`
             myWeatherContainer.style.backgroundColor = '#d8ced2'
         }
 
